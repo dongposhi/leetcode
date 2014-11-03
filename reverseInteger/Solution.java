@@ -6,7 +6,6 @@ public class Solution{
     	do{
     		y = x%10;
     		z = x / 10;   
-    		System.out.println("*" + (10L * n +y));
     		if (n * 10L + y > Integer.MAX_VALUE || n*10L + y < Integer.MIN_VALUE){
     			return -1;
     		} 		
